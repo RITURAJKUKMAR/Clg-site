@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .in {
+            cursor: pointer;
+        }
+        .table{
+            position:relative;
+            left: 35vw;
+        }
+    </style>
+</head>
+
+<body style="text-align:center;background-color:rgb(48, 102, 144);">
+    <form action="">
+        <table class="table">
+            <h1>Registration Page</h1>
+            <tr>
+                <td>
+                    Name :
+                </td>
+                <td>
+                    <input type="text" name="name" placeholder="Full Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    E-mail Id :
+                </td>
+                <td>
+                    <input type="text" name="emailid" placeholder="E-Mail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone Number :
+                </td>
+                <td>
+                    <input type="text" name="phonenumber" placeholder="Phone Number">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Password :
+                </td>
+                <td>
+                    <input type="password" name="password" placeholder="Create Password">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Sex : 
+                </td>
+                <td>
+                    <input class="in" class="in" type="radio" name="gender">Male <input class="in" type="radio" name="gender">Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Date of Birth :
+                </td>
+                <td>
+                    <input type="date" name="dateofbirth">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Language : 
+                </td>
+                <td>
+                    <input  class="in" class="in" type="checkbox" name="english">English <input class="in"  type="checkbox" name="Telugu">Telugu <input class="in" type="checkbox" name="hindi">Hindi <input class="in" type="checkbox" name="tamil">Tamil
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Address :
+                </td>
+                <td>
+                    <textarea name="address" cols="30" rows="5"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <button class="in" type="reset" style="width:90px; height:30px;color:rgb(48, 102, 144)">Reset</button>
+                </td>
+                <td>
+                    <button class="in" type="submit" style="width:90px; height:30px;color:rgb(48, 102, 144);">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
